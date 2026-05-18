@@ -1,0 +1,6 @@
+2026-05-18 18:33:14,647 - INFO - [orders.py:20] - Placing Order -> BUY 0.005 BTCUSDT (MARKET)
+2026-05-18 18:33:14,647 - DEBUG - [client.py:41] - Sending POST to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.005', 'timestamp': 1779109394647, 'recvWindow': 5000, 'signature': '32051875ea92448db841824eec29076884adf9a523b153fa9a3af99c80f847a7'}
+2026-05-18 18:34:10,533 - INFO - [orders.py:20] - Placing Order -> SELL 0.005 BTCUSDT (LIMIT)
+2026-05-18 18:34:10,533 - DEBUG - [client.py:41] - Sending POST to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.005', 'price': '65000.0', 'timeInForce': 'GTC', 'timestamp': 1779109450533, 'recvWindow': 5000, 'signature': '54519035dcb9a7b1fff02768bed128b7d5689b47d0ab9628941de2f9b12ea751'}
+2026-05-18 18:34:51,774 - INFO - [orders.py:20] - Placing Order -> SELL 0.005 BTCUSDT (LIMIT)
+2026-05-18 18:34:51,775 - DEBUG - [client.py:41] - Sending POST to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.005', 'price': '80000.0', 'timeInForce': 'GTC', 'timestamp': 1779109491775, 'recvWindow': 5000, 'signature': '854bf2d6c951cb906df6a64080eba2f480fe02ed472fc795ee128aa0c396a97c'}
